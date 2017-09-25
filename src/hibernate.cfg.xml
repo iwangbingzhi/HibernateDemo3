@@ -6,7 +6,7 @@
     <!--1.配置数据库信息-->
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql:///users</property>
+        <property name="hibernate.connection.url">jdbc:mysql:///manytomany</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">h.1111032</property>
 
