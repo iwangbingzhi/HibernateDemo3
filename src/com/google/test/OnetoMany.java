@@ -1,17 +1,11 @@
 package com.google.test;
 
-import com.google.entity.Customer;
-import com.google.entity.LinkMan;
-import com.google.utils.HibernateUtils;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
-
 /**
  * Created by 王炳智 on 2017/9/23.
  */
 
 
+/*
 public class OnetoMany {
     public static void main(String[] args) {
         testupdate();
@@ -149,3 +143,4 @@ public class OnetoMany {
         }
     }
 }
+*/

@@ -9,5 +9,13 @@
         </id>
         <property name="user_name" column="user_name"/>
         <property name="user_password" column="user_password"/>
+   <!--     name表示set集合的名称
+        table属性表示第三张表名称-->
+        <set name="setRole" table="user_role">
+            <!--key标签配置的是当前映射文件在第三张表外键的名称-->
+            <key column="userid"/>
+            <!--column表示角色在第三张表的外键的名称-->
+            <many-to-many class="com.google.manytomany.Role" column="roleid"/>
+        </set>
     </class>
 </hibernate-mapping>
