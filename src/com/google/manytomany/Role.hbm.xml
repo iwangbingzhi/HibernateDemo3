@@ -9,7 +9,7 @@
             </generator>
         </id>
         <property name="role_name" column="role_name"/>
-        <property name="role_password" column="role_password"/>
+        <property name="role_memo" column="role_memo"/>
 <set name="setUser" table="user_role">
     <key column="roleid"/>
     <many-to-many class="com.google.manytomany.User" column="userid"/>

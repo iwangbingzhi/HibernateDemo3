@@ -23,8 +23,8 @@
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 
     <!--3.配置映射文件到核心配置文件中-->
-        <mapping resource="com/google/entity/Customer.hbm.xml"/>
-        <mapping resource="com/google/manytomany/User.hbm.xml"/>
+ <!--       <mapping resource="com/google/entity/Customer.hbm.xml"/>
+        <mapping resource="com/google/entity/LinkMan.hbm.xml"/>-->
         <mapping resource="com/google/manytomany/Role.hbm.xml"/>
         <mapping resource="com/google/manytomany/User.hbm.xml"/>
     </session-factory>

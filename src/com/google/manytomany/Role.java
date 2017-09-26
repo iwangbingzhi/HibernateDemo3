@@ -23,14 +23,6 @@ public class Role {
         this.role_name = role_name;
     }
 
-    public String getRole_password() {
-        return role_password;
-    }
-
-    public void setRole_password(String role_password) {
-        this.role_password = role_password;
-    }
-
     public Set<User> getSetUser() {
         return setUser;
     }
@@ -42,5 +34,13 @@ public class Role {
     private Set<User> setUser = new HashSet<User>();
     private Integer role_id;
     private String role_name;
-    private String role_password;
+    private String role_memo;
+
+    public String getRole_memo() {
+        return role_memo;
+    }
+
+    public void setRole_memo(String role_memo) {
+        this.role_memo = role_memo;
+    }
 }
